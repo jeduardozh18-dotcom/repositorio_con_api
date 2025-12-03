@@ -1,19 +1,14 @@
-# Usa una imagen base de Python (por ejemplo, la versión 3.11 slim)
 FROM python:3.11-slim
 
-# Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Copia los archivos del repositorio al contenedor
-# Esto incluye tus scripts Python
 COPY . /app
 
-# Instala cualquier dependencia (si tienes un archivo requirements.txt, úsalo aquí)
-# Si no tienes dependencias externas, puedes omitir este paso,
-# pero para entornos reales casi siempre es necesario.
+# Instalar dependencias necesarias
+RUN pip install fastapi uvicorn pymongo pandas openpyxl
 
-# EXPOSE 8080 (O el puerto que use tu aplicación, si aplica)
+# Exponer puerto 9000 para evitar conflicto con el 8000
+EXPOSE 9000
 
-# Define el comando por defecto para correr tu script principal
-# (Ajusta 'importar_a_mongo_final.py' si este no es el archivo que debe ejecutar el contenedor)
-CMD ["python", "importar_a_mongo_final.py"]
+# Ejecutar la API
+CMD ["uvicorn", "app2:app", "--host", "0.0.0.0", "--port", "9000"]
