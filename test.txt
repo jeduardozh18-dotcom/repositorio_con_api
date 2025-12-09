@@ -2,4 +2,4 @@ esto es una prueba de cambios
 
 esta linea es la prueba de pipeline automatizado
 
-esta es la prueba de levantar el contenedor de Docker y la notificación se enviara al correo 
+esta es la prueba de levantar el contenedor de Docker y enviar email
