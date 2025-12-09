@@ -5,3 +5,5 @@ esta linea es la prueba de pipeline automatizado
 esta es la prueba de levantar el contenedor de Docker y enviar email
 
 prueba de levantar imagen como contenedor
+
+prueba de levantar imagen y borrar antepenultima
