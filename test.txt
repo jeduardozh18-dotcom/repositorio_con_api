@@ -6,4 +6,6 @@ esta es la prueba de levantar el contenedor de Docker y enviar email
 
 prueba de levantar imagen como contenedor
 
-prueba de levantar imagen y borrar antepenultima
+prueba de levantar imagen y borrar antepenúltima
+
+Prueba imagen con fecha 
