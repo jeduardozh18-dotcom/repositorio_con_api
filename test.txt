@@ -10,4 +10,4 @@ prueba de levantar imagen y borrar antepenúltima
 
 Prueba imagen con fecha
 
-Prueba dos imagen con fecha 
+Prueba dos de imagen con fecha 
