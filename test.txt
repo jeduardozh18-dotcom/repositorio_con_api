@@ -14,4 +14,4 @@ Prueba dos de imagen con fecha
 
 prueba tres d imagen con fecha 
 
-prueba de k6 para pruebas de rendimiento con variable de entorno en path de Jenkins 
+prueba de k6 para pruebas de rendimiento corregido
