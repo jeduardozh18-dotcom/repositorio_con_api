@@ -18,4 +18,4 @@ prueba de 3 de 3
 
 prueba nueva 05 de enero 2026
 
-prueba sobre ejecución automatca
+prueba de conexion de Jenkins con git 
