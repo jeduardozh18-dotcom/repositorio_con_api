@@ -19,3 +19,5 @@ prueba de 3 de 3
 prueba nueva 05 de enero 2026
 
 prueba de automatizacion
+
+prueba de automatización 2
