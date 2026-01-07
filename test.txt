@@ -24,4 +24,4 @@ prueba de automatización 2
 
 pruebas de rendimiento
 
-prueba de stage corregido
+prueba de stage corregido final
