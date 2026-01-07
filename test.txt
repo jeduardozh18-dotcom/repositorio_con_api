@@ -25,3 +25,5 @@ prueba de automatización 2
 pruebas de rendimiento
 
 prueba de stage corregido final
+
+pruebas de carga script python
