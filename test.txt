@@ -26,4 +26,6 @@ pruebas de rendimiento
 
 prueba de stage corregido final
 
-pruebas de carga script python
+pruebas de carga script Python
+
+prueba de función 09 enero 2025
