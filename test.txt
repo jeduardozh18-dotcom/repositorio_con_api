@@ -38,3 +38,4 @@ prueba de automatización en la mv servidor.3.1
 
 prueba de despliegue a mv cliente 
  
+prueba de despliegue a mv cliente.2
