@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prueba-jenkins
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: prueba-jenkins
+  template:
+    metadata:
+      labels:
+        app: prueba-jenkins
+    spec:
+      containers:
+      - name: api
+        image: jeduardoz/prueba_jenkins:latest
+        ports:
+        - containerPort: 9000
