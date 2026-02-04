@@ -57,3 +57,5 @@ despliegue api
 prueba 29 enero 2026
 
 k6 03 02 2026
+
+k6 pruebas 
