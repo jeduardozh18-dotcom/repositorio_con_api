@@ -9,10 +9,10 @@ import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning, module="pandas")
 
-app = FastAPI(title="API Excel ↔ MongoDB v2", version="2.0")
+app = FastAPI(title="API Excel ↔ MongoDB v2", version="3.0")
 
 # -------------------------------------------------------
-#  Conexión con MongoDB
+#  Conexion con MongoDB
 # -------------------------------------------------------
 class MongoDBHandler:
     def __init__(self, uri="mongodb://localhost:27017/", db_name="exel3"):
@@ -50,7 +50,7 @@ class ExcelToMongo:
 
 
 # -------------------------------------------------------
-#  Validación con Pydantic
+#  Validacion con Pydantic
 # -------------------------------------------------------
 from pydantic import field_validator
 
@@ -78,7 +78,7 @@ class ValidadorCampo(BaseModel):
 
 
 # -------------------------------------------------------
-#  Validación, tabla dinámica y exportación a Excel
+#  Validacion, tabla dinamica y exportacion a Excel
 # -------------------------------------------------------
 class MongoToExcelValidator:
     def __init__(self, mongo_handler, collection_name):
