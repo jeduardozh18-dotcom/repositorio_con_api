@@ -11,8 +11,8 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('http://host.docker.internal:9001/');
-  
+  const res = http.get('http://localhost:9000/');
+
   check(res, {
     'status is 200': (r) => r.status === 200,
   });
