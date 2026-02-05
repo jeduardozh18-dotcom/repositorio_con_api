@@ -198,3 +198,7 @@ def exportar_excel(request: ExcelExportRequest):
         funciones_agregacion=request.funciones_agregacion
     )
     return resultado
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
