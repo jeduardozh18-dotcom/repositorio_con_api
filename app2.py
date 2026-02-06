@@ -9,7 +9,7 @@ import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning, module="pandas")
 
-app = FastAPI(title="API Excel ↔ MongoDB v2", version="3.0")
+app = FastAPI(title="API Excel ↔ MongoDB v2", version="2.0")
 
 # -------------------------------------------------------
 #  Conexion con MongoDB
